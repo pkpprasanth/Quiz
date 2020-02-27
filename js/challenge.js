@@ -58,8 +58,8 @@ let questions = [
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
-const questionTime = 30; // 10s
-const gaugeWidth = 150; // 150px
+const questionTime = 30; 
+const gaugeWidth = 150; 
 const gaugeUnit = gaugeWidth / questionTime;
 let TIMER;
 let score = 0;
@@ -67,7 +67,7 @@ let score = 0;
 // render a question
 function renderQuestion(){
     let q = questions[runningQuestion];
-    
+
     question.innerHTML = "<p>"+ q.question +"</p>";
     qImg.innerHTML = "<img src="+ q.imgSrc +">";
     choiceA.innerHTML = q.choiceA;

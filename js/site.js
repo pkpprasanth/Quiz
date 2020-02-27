@@ -1,4 +1,4 @@
-
+// Create the questions
 let questions = [
   {
     id: 1,
@@ -11,7 +11,7 @@ let questions = [
       "js"
     ]
   },
-  {
+  { 
     id: 2,
     question: "What is the full form of CPU?",
     answer: "Central Processing Unit",
@@ -111,6 +111,11 @@ let questions = [
     ]
   }
 ];
+let value = JSON.stringify(questions);
+localStorage.setItem("question", value);
+let con = localStorage.getItem("question");
+let x=JSON.parse(con);
+console.log(x);
 
 let question_count = 0;
 let points = 0;
@@ -131,7 +136,7 @@ function next() {
   console.log(question_count);
 
   let user_answer = document.querySelector("li.option.active").innerHTML;
-  // check if the answer is right or wrong
+  // check the answer is right or wrong
   if (user_answer == questions[question_count].answer) {
     points += 10;
     sessionStorage.setItem("points", points);

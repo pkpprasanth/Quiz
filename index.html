@@ -13,7 +13,9 @@
     <div class="wrapper">
         <div class="welcome_text">
             <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
-                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="text" name="name" placeholder="Enter Your Name" id="username" required>
+                <input type="text" name="name" placeholder="Enter Your Password" id="password" required>
+                 <h1 id="error"></h1>
                 <button>Start Quiz</button><br>
                 <button><a href="./challenge.html" style="text-decoration:none">Challenge</a></button>
             </form>

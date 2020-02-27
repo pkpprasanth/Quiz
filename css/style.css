@@ -21,8 +21,6 @@ body {
   width: 400px;
 }
 
-.welcome_form {
-}
 
 .welcome_form input,
 .welcome_form button {
@@ -167,9 +165,9 @@ body {
   font-size: 22px;
   transition: 0.4s all;
   margin-top: 2%;
-  margin-left: 20%;
+  margin-left: 16%;
 }
-.leftbuttons:hover {
+.leftbuttons:hover , .rightbuttons:hover {
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
   cursor: pointer;
@@ -186,15 +184,14 @@ body {
   margin-top: 2%;
   margin-left: 30%;
 }
-.rightbuttons:hover {
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
-  cursor: pointer;
+img{
+    margin-top: -50%;
+    margin-left: 30%;
+    width: 40%;
+    height: 40%;
+  }
+#error{
+  position: relative;
+  margin-left: 20%;
+  color: #f50bf5;
 }
-
-   img{
-            margin-top: -50%;
-            margin-left: 30%;
-            width: 40%;
-            height: 40%;
-        }
