@@ -2,90 +2,90 @@
 let questions = [
   {
     id: 1,
-    question: "What is the HTML tag under which one can write the JavaScript code?",
-    answer: "script",
+    question: "Which is the hottest planet in our solar system?",
+    answer: "Mars",
     options: [
-      "javascript",
-      "scripted",
-      "script",
-      "js"
+      "Mercury",
+      "Earth",
+      "Venus",
+      "Mars"
     ]
   },
   { 
     id: 2,
-    question: "What is the full form of CPU?",
-    answer: "Central Processing Unit",
+    question: "What is the correct order of the planets from the sun?",
+    answer: "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune",
     options: [
-      "Central Program Unit",
-      "Central Processing Unit",
-      "Central Preload Unit",
-      "None of these"
+      "Venus, Earth, Mercury, Mars, Jupiter, Saturn, Uranus and Neptune",
+      "Venus, Earth, Jupiter, Mars, Mercury, Saturn, Uranus and Neptune",
+      "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune",
+      "Venus, Earth, Jupiter, Mars, Mercury, Saturn, Uranus and Neptune"
     ]
   },
   {
     id: 3,
-    question: "Which one of these is a JavaScript package manager?",
-    answer: "NPM",
+    question: "Which is the largest asteroid?",
+    answer: "Ceres",
     options: [
-      "Node.js",
-      "TypeScript",
-      "VS-Code",
-      "NPM"
+      "Ceres",
+      "4 Vesta",
+      "Bennu",
+      "2 Pallas"
     ]
   },
   {
     id: 4,
-    question: " How to write an ‘if’ statement for executing some code.If “i” is NOT equal to 8?",
-    answer: "if(i!=5)",
+    question: " What year were the first astronauts selected?",
+    answer: "1959",
     options: [
-      "if(i<>5)",
-      "if i<>5",
-      "if(i!=5)",
-      "if i!=5"
+      "1959",
+      "1998",
+      "1958",
+      "1963"
     ]
   },
   {
     id: 5,
-    question: "What is the correct syntax for adding comments in JavaScript?",
-    answer: "//This is a comment",
+    question: "What mass does the sun take up in the solar system?",
+    answer: "99.86",
     options: [
-      "!–This is a comment",
-      "//This is a comment",
-      "–This is a comment",
-      "**This is a comment**"
+      "89.45",
+      "99.86",
+      "78.68",
+      "32.89"
     ]
   },
   {
     id: 6,
-    question: "What is the JavaScript syntax for printing values in Console?",
-    answer: "console.log(5);",
+    question: "Who was the first man in space ?",
+    answer: "Yuri Gagarin",
     options: [
-      "print(5)",
-      "console.log(5);",
-      "console.print(5);",
-      "print.console(5);"
+      "Scott Kelly",
+      "Yuri Gagarin",
+      "Nick Hauge",
+      "Neil Armstrong"
     ]
   },
   {
     id: 7,
-    question: "What is the method in JavaScript used to remove the whitespace at the beginning and end of any string ?",
-    answer: "trim()",
+    question: "Which was the first animal to go into space?",
+    answer: "Dog",
     options: [
-      "strip()",
-      "trim()",
-      "stripped()",
-      "trimmed()"
+      "Mouse",
+      "Cat",
+      "Dog",
+      "Monkey"
     ]
   },
   {
     id: 8,
-    question: "If we want to wrap a block of text around an image, which css property will we use ?",
+    question: "Complete the formula: Speed = _____ / Time",
     answer: "float;",
     options: [
-      "wrap",
-      "push",
-      "float",
-      "align"
+      "Mass",
+      "Direction",
+      "Temperature",
+      "Distance"
     ]
   },
   {
