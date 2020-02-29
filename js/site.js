@@ -111,11 +111,10 @@ let questions = [
     ]
   }
 ];
-let value = JSON.stringify(questions);
-localStorage.setItem("question", value);
-let con = localStorage.getItem("question");
-let x=JSON.parse(con);
-console.log(x);
+
+    let value = JSON.stringify(questions);
+     localStorage.setItem("question", value);
+    
 
 let question_count = 0;
 let points = 0;
